@@ -43,11 +43,11 @@ In this project, we proposed 3 new models with UNet as our baseline model.
 
 ## Results 
 ### Validation results for training dataset patient_001:
-<center>
+
 |FLAIR|GT|
 |:--:|:--:|
 |![](Fig/gif/Flair_001.gif)|![](Fig/gif/Seg_001_fps5.gif)|
-<\center>
+
   
 |UNet|DAUNet|SGANet|3D-DAUNet|
 |:--:|:--:|:--:|:--:|
