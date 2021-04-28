@@ -34,10 +34,11 @@ In this project, we proposed 3 new models with UNet as our baseline model.
 - Proposed Model 03: 3D-Deep supervised Attention UNet ([3D-DAUNet](Model/BraTS20_3D_DAUNet.ipynb)) 
 
 | Network       | Batch Size    |Time Cost (hr.)| Total Parameter|
-| ------------- | ------------- | ------------- | ------------- |
+| :-----------: | :----------: | :-----------: | :-----------: |
 | UNet  | 24  | 20 | 34,514,116 |
 | DAUNet  | 24  | 28| 35,563,044 |
-
+|SGANet| 8 | 36 | 2,212,974 |
+|3D-DAUnet| 1 | 8 | 849,267|
 
 ## Results 
 
