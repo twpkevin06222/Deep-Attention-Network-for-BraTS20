@@ -61,3 +61,8 @@ In this project, we proposed 3 new models with UNet as our baseline model.
 <p align="center">
 <img src="Fig/_Validation_dice_box.png" width="600" height="500">
 </p>
+
+# License
+Copyright (c) 2021 Wai Po Kevin Teng 
+
+Licensed under the [MIT License](LICENSE)
