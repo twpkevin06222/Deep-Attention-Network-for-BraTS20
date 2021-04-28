@@ -54,4 +54,4 @@ Validation results for patient001:
 Validation reults for all patient
 ![](Fig/Validation_Results_Table.PNG)
 ![](Fig/_Validation_dice_box.png)
-<img src="Fig/_Validation_dice_box.png" width="100" height="100">
+<img src="Fig/_Validation_dice_box.png" width="300" height="300">
