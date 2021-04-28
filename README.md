@@ -42,3 +42,4 @@ In this project, we proposed 3 new models with UNet as our baseline model.
 
 ## Results 
 
+|![](Fig/_Validation_dice_box.png)|![](Fig/_Validation_dice_box.png)|
