@@ -42,16 +42,16 @@ In this project, we proposed 3 new models with UNet as our baseline model.
 |3D-DAUnet| 1 | 8 | 849,267|
 
 ## Results 
-Validation results for patient001:
+### Validation results for patient001:
 |FLAIR|GT|
 |:--:|:--:|
-|![](Fig/gif/Flair_001.gif)|![](Fig/gif/Seg_001_fps10.gif)|
+|![](Fig/gif/Flair_001.gif)|![](Fig/gif/Seg_001_fps5.gif)|
 
 |UNet|DAUNet|SGANet|3D-DAUNet|
 |:--:|:--:|:--:|:--:|
 |![](Fig/gif/UNet_001.gif)|![](Fig/gif/DAUNet_001.gif)|![](Fig/gif/SGANet_001.gif)|![](Fig/gif/3DDAUNet_001.gif)|
 
-Validation results for all patient
+### Validation results for all patient
 
 <img src="Fig/Validation_Results_Table.PNG" width="500" height="400">
 <img src="Fig/_Validation_dice_box.png" width="500" height="400">
