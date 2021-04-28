@@ -44,6 +44,7 @@ In this project, we proposed 3 new models with UNet as our baseline model.
 Validation results for patient001:
 |FLAIR|GT|
 |:--:|:--:|
+|![](Fig/gif/Flair_001.gif)|![](Fig/gif/Seg_001_fps10.gif)|
 
 ![](Fig/Validation_Results_Table.PNG)  
 ![](Fig/_Validation_dice_box.png)
