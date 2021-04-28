@@ -51,6 +51,7 @@ Validation results for patient001:
 |:--:|:--:|:--:|:--:|
 |![](Fig/gif/UNet_001.gif)|![](Fig/gif/DAUNet_001.gif)|![](Fig/gif/SGANet_001.gif)|![](Fig/gif/3DDAUNet_001.gif)|
 
-Validation reults for all patient
+Validation results for all patient
+
 <img src="Fig/Validation_Results_Table.PNG" width="500" height="400">
 <img src="Fig/_Validation_dice_box.png" width="500" height="400">
