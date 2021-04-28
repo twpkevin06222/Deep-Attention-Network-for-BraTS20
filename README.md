@@ -1,5 +1,31 @@
 # Deep Supervised Attention Networks for Pixel-wise Brain Tumour Segmentation 
-Deep learning project for Brain Tumour Segmentation for OVGU Magdeburg Winter Semester 2020.
+Deep learning project for Brain Tumour Segmentation for OVGU Magdeburg Winter Semester 2020. The project in being implemented in TensorFlow 2.0 
+
+## Abstract
+Glioblastoma (GBM) is one of the leading causes of cancer
+death. The imaging diagnostics are critical for all phases in the treatment
+of brain tumour. However, manually-checked output by a radiologist has
+several limitations such as tedious annotation, time consuming and subjective biases, which influence the outcome of a brain tumour affected
+region. Therefore, the development of an automatic segmentation framework has attracted lots of attention from both clinical and academic
+researchers. Recently, most state-of-the-art algorithms are derived from
+deep learning methodologies such as the U-net, attention mechanism and
+capsule networks. In this paper, we propose multiple model architecture
+that combines the method of deep supervision and attention mechanism
+for pixel-wise brain tumour segmentation. We believe that 2D network
+models are much easier to implement as compared to it’s 3D counterpart.
+Our work aims to exploit the potential of 2D networks as opposed to 3D
+networks architecture. To validate our work, we set UNet as our baseline
+model and proposed two novel 2D network architectures as well as one
+3D network architecture. Our first proposed model Deep supervised Attention Unet(DAUNet), extends the infamous UNet framework with the
+addition of attention gates in the skip connection path and deep supervision in the upsampling path. Our second proposed model, multi-scale
+Self Guided Attention Network(SGANet), attempts to compensate the
+lack of multi-scale features in the UNet framework by incorporate guided
+self-attention mechanism and deep supervision for multi-scale features.
+Our third proposed model, (3D-DAUNet), further the work of our first
+proposed model(DAUNet), by extending a dimension with 3D convolutional layers. Subsequently, we are able to achieve a low resolution and
+high resolution feature representations even for small tumour regions for
+both of our proposed 2D models, namely DAUNet and SGANet. 
+
 ## Paper
 [A Deep Supervised U-Attention Net for Pixel-Wise Brain Tumor Segmentation](https://link.springer.com/chapter/10.1007%2F978-3-030-72087-2_24) by Jia Hua Xu, Wai Po Kevin Teng and Andreas Nürnberger. 
 ```
@@ -18,7 +44,16 @@ Deep learning project for Brain Tumour Segmentation for OVGU Magdeburg Winter Se
 Final report of the project can be found ([here](Report/BraTS2020__finalReport.pdf))
 
 ## Dataset 
-The aim of the project was to solve the Multimodal Brain Tumour Segmentation Challenge 2020 ([BraTS20](https://www.med.upenn.edu/cbica/brats2020/data.html)). Training and validatin dataset can be obtain upon request at the official website (subjected to registration). The each patients MRI images containts multimodal of Flair, T1, T1CE, T2 and a ground truth annotation of brain tumor pixel. The brain tumour contains sub regions, where Peritumoural Edema(<span style="color:red">red</span>), Necrotic and Non-enhancing tumour Core(blue), Necrotic and
+The aim of the project was to solve the Multimodal Brain Tumour Segmentation Challenge 2020 ([BraTS20](https://www.med.upenn.edu/cbica/brats2020/data.html)). Training and validatin dataset can be obtain upon request at the official website (subjected to registration). The each patients MRI images containts multimodal of Flair, T1, T1CE, T2 and a ground truth annotation of brain tumor pixel. The brain tumour contains sub regions, where Peritumoural Edema(red), Necrotic and Non-enhancing tumour Core(blue), Necrotic and
 GD-Enhancing tumour(green) and Background(black).     
 ![](Fig/dataset.png)
+
+## Model
+In this project, we proposed 3 new models with UNet as our baseline model. 
+- Baseline Model: [UNet](Model/BraTS20_Unet.ipynb)
+- Proposed Model 01: Deep supervised Attention UNet([DAUNet](Model/BraTS20_DAUNet.ipynb)) 
+- Proposed Model 02: Self Guided Attention Network([SGANet](Model/BraTS20_SGANet.ipynb))  
+- Proposed Model 03: 3D-Deep supervised Attention UNet ([3D-DAUNet](Model/BraTS20_3D_DAUNet.ipynb)) 
+
+## Results 
 
