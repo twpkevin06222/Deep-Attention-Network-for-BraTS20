@@ -33,5 +33,10 @@ In this project, we proposed 3 new models with UNet as our baseline model.
 - Proposed Model 02: Self Guided Attention Network ([SGANet](Model/BraTS20_SGANet.ipynb))  
 - Proposed Model 03: 3D-Deep supervised Attention UNet ([3D-DAUNet](Model/BraTS20_3D_DAUNet.ipynb)) 
 
+| Network  | Batch Size |Time Cost (hr.) | Total Parameter
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 ## Results 
 
