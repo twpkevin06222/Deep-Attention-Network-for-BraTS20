@@ -1,1 +1,1 @@
-# Deep-Attention-Network-for-BraTS20
+# Deep Supervised Attention Networks for Pixel-wise Brain Tumour Segmentation
