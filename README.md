@@ -60,5 +60,5 @@ In this project, we proposed 3 new models with UNet as our baseline model.
 
 ### Box plot for validation results:
 <p align="center">
-<img src="Fig/_Validation_dice_box.png" width="600" height="600">
+<img src="Fig/_Validation_dice_box.png" width="600" height="500">
 </p>
