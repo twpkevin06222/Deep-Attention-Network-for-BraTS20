@@ -1,5 +1,6 @@
 # Deep Supervised Attention Networks for Pixel-wise Brain Tumour Segmentation 
-Deep learning project for Brain Tumour Segmentation for OVGU Magdeburg Winter Semester 2020. The project in being implemented in TensorFlow 2.0 
+Deep learning project for Brain Tumour Segmentation for OVGU Magdeburg Winter Semester 2020 supervised by Jia Hua Xu and Prof.Andreas Nürnberger, Data and Knowledge Engineering Group
+Faculty of Computer Science, Otto von Guericke University Magdeburg, Germany. The deep learning framework for this project is TensorFlow 2.0. 
 
 ## Motivation
 Glioblastoma (GBM) is one of the leading causes of cancer death. The imaging diagnostics are critical for all phases in the treatment of brain tumour. However, manually-checked output by a radiologist has several limitations such as tedious annotation, time consuming and subjective biases, which influence the outcome of a brain tumour affected region. Therefore, the development of an automatic segmentation framework has attracted lots of attention from both clinical and academic researchers. To validate our work, we set UNet as our baseline model and proposed two novel 2D network architectures as well as one 3D network architecture. Our first proposed model Deep supervised Attention Unet(DAUNet), extends the infamous UNet framework with the addition of attention gates in the skip connection path and deep supervision in the upsampling path. Our second proposed model, multi-scale Self Guided Attention Network(SGANet), attempts to compensate the lack of multi-scale features in the UNet framework by incorporate guided self-attention mechanism and deep supervision for multi-scale features. Our third proposed model, (3D-DAUNet), further the work of our first proposed model(DAUNet), by extending a dimension with 3D convolutional layers.
@@ -46,5 +47,10 @@ Validation results for patient001:
 |:--:|:--:|
 |![](Fig/gif/Flair_001.gif)|![](Fig/gif/Seg_001_fps10.gif)|
 
-![](Fig/Validation_Results_Table.PNG)  
-![](Fig/_Validation_dice_box.png)
+|UNet|DAUNet|SGANet|3D-DAUNet|
+|:--:|:--:|:--:|:--:|
+|[](Fig/gif/UNet_001.gif)|[](Fig/gif/DAUNet_001.gif)|[](Fig/gif/SGANet_001.gif)|[](Fig/gif/3DDAUNet_001.gif)|
+
+Validation reults for all patient
+![](Fig/Validation_Results_Table.PNG){:height="50%" width="50%"}  
+![](Fig/_Validation_dice_box.png){:height="50%" width="50%"}
