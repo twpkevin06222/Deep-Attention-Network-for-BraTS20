@@ -49,8 +49,9 @@ Validation results for patient001:
 
 |UNet|DAUNet|SGANet|3D-DAUNet|
 |:--:|:--:|:--:|:--:|
-|[](Fig/gif/UNet_001.gif)|[](Fig/gif/DAUNet_001.gif)|[](Fig/gif/SGANet_001.gif)|[](Fig/gif/3DDAUNet_001.gif)|
+|![](Fig/gif/UNet_001.gif)|![](Fig/gif/DAUNet_001.gif)|![](Fig/gif/SGANet_001.gif)|![](Fig/gif/3DDAUNet_001.gif)|
 
 Validation reults for all patient
-![](Fig/Validation_Results_Table.PNG){:height="50%" width="50%"}  
-![](Fig/_Validation_dice_box.png){:height="50%" width="50%"}
+![](Fig/Validation_Results_Table.PNG)
+![](Fig/_Validation_dice_box.png)
+<img src="Fig/_Validation_dice_box.png" width="100" height="100">
