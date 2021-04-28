@@ -1,7 +1,7 @@
 # Deep Supervised Attention Networks for Pixel-wise Brain Tumour Segmentation 
 Deep learning project for Brain Tumour Segmentation for OVGU Magdeburg Winter Semester 2020.
 ## Paper
-[A Deep Supervised U-Attention Net for Pixel-Wise Brain Tumor Segmentation](https://link.springer.com/chapter/10.1007%2F978-3-030-72087-2_24) by Jia Hua Xu, Wai Po Kevin Teng and Andres Nürnberger. 
+[A Deep Supervised U-Attention Net for Pixel-Wise Brain Tumor Segmentation](https://link.springer.com/chapter/10.1007%2F978-3-030-72087-2_24) by Jia Hua Xu, Wai Po Kevin Teng and Andreas Nürnberger. 
 
 Final report of the project can be found ([here](Report/BraTS2020__finalReport.pdf))
 ```
