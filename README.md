@@ -63,14 +63,23 @@ In this project, we proposed 3 new models with UNet as our baseline model.
 </p>
 
 ## Individual Contributions
-
+- Adapted attention mechanism for proposed models to enhance salient feature learning capability and better interoperability of proposed model. 
+- Adapted deep supervision method in the later stage of the network such that signal injection from the later stage to the shallow stage could prevent saturated gradients. 
+- Experiment design, experiment setup, ablation studies and most part of the report is being done by Wai Po Kevin Teng.  
 
 ## Challenges Faces
+- Class imbalanced in the data labels, especially for brain tumour core region hinder the model to perform well in the image segmentation process. 
+- Unable to adapt rigorous data augmentation techniques on data set. Due to the lack of 3D data augmentation support from tensorflow library and to make a fair comparision with 2D data set, only flip and rotation data augmentation techniques are implemented. 
+- Unable to fit large batch size for complex model (SGANet with a batch size of 8) and 3D model (3D-DAUNet with a batch size of 1). 
+- Reduncancies of self-guided attention mechanism (SGANet) learnt features due to model complexity.  
 
 
 ## What Would They Do Differently if Restarting the Project Now
-
-
+- Implement weighted [focal loss](https://arxiv.org/abs/1708.02002) to tackle class imbalanced, such that not well classified labels are emphasized instead of the easily classified labels. 
+- Implement third party library that supports various 3D data augmentation techniques for medical imaging, such as 
+  batch generators repo by [MIC@DKFZ](https://github.com/MIC-DKFZ/batchgenerators). 
+- Use gradient accumulation technique, such that we can increase the number of batch size for 3D model and standarize the batch size for all models to provide fair comparison. 
+- Reduce the complexity of self-guided attention mechanism (SGANet) by reducing the number of output channel for convolutional layers. 
 
 ## License and Copyright
 Copyright (c) 2021 Wai Po Kevin Teng 
