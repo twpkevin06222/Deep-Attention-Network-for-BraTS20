@@ -65,7 +65,7 @@ In this project, we proposed 3 new models with UNet as our baseline model.
 ## Individual Contributions
 - Adapted attention mechanism for proposed models to enhance salient feature learning capability and better interoperability of proposed model. 
 - Adapted deep supervision method in the later stage of the network such that signal injection from the later stage to the shallow stage could prevent saturated gradients. 
-- Experiment design, experiment setup, ablation studies and most part of the report is being done by Wai Po Kevin Teng.  
+- Experiment design, experiment setup, ablation studies and majority part of the report is being done by Wai Po Kevin Teng.  
 
 ## Challenges Faces
 - Class imbalanced in the data labels, especially for brain tumour core region hinder the model to perform well in the image segmentation process. 
