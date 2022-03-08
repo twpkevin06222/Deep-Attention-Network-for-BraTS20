@@ -71,7 +71,7 @@ In this project, we proposed 3 new models with UNet as our baseline model.
 - Class imbalanced in the data labels, especially for brain tumour core region hinder the model to perform well in the image segmentation process. 
 - Unable to adapt rigorous data augmentation techniques on data set. Due to the lack of 3D data augmentation support from tensorflow library and to make a fair comparision with 2D data set, only flip and rotation data augmentation techniques are implemented. 
 - Unable to fit large batch size for complex model (SGANet with a batch size of 8) and 3D model (3D-DAUNet with a batch size of 1). 
-- Reduncancies of self-guided attention mechanism (SGANet) learnt features due to model complexity.  
+- Redundancies of self-guided attention mechanism (SGANet) learnt features due to model complexity.  
 
 
 ## What Would They Do Differently if Restarting the Project Now
